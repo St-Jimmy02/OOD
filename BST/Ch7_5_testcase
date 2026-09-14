@@ -1,0 +1,40 @@
+Testcase : #1 Basic Testcase
+Enter trees: [3,1,5] / [5,4,6]
+
+Merged successfully:
+        6
+    5
+        4
+3
+    1
+
+Testcase : #2 Cannot merge
+Enter trees: [3,1,5] / [10,9,11]
+
+Cannot merge these trees.
+
+Testcase : #3 Cannot merge
+Enter trees: [5,4,6] / [3,1,5]
+
+Cannot merge these trees.
+
+Testcase : #4 Single Node
+Enter trees: [5] / [5,4,6]
+
+Merged successfully:
+    6
+5
+    4
+
+Testcase : #5 Have null in it
+Enter trees: [7,3,15,null,null,9,20] / [9,8,10]
+
+Merged successfully:
+        20
+    15
+            10
+        9
+            8
+7
+    3
+
